@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "username": "root",
+            "database": "new_app"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Sqlite Local",
+            "database": "${workspaceFolder:BINAR}/dsc-binar/abusive_text.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Sqlite test",
+            "database": "${workspaceFolder:BINAR}/dsc-binar/test_db.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
